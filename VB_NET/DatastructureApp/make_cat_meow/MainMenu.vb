@@ -1,6 +1,6 @@
 Class MainMenu
     Implements IMenu
-    Sub Start() IMenu.Start
+    Sub intitialize() implements IMenu.Start
         Console.WriteLine(" Hello I'm miss kitty")
         dim repeat as Boolean = true
         Do While repeat
